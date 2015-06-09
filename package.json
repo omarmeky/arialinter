@@ -1,7 +1,7 @@
 {
-  "name": "grunt-arialinter",
+  "name": "arialinter",
   "description": "AriaLinter provides a simple accesibility linter for HTML documents.",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "homepage": "https://github.com/globant-ui/arialinter",
   "repository": {
     "type": "git",
@@ -16,36 +16,42 @@
       "url": "https://github.com/globant-ui/arialinter/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "Gruntfile.js",
+  "main": "index.js",
   "engines": {
     "node": ">= 0.6.0"
   },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "bin": {
-    "arialinter": "./lib/cli/node.js"
-  },
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt-contrib-watch": "~0.2.0",
-    "grunt-contrib-copy": "~0.4.1"
-  },
   "dependencies": {
-    "async": "~0.8.0",
-    "color": "~0.6.0",
-    "colors": "~0.6.2",
-    "commander": "~2.1.0",
-    "grunt": "~0.4.0",
-    "jquery": "^2.1.1",
-    "jsdom": "^0.10.6",
+    "jsdom": "3.1.2",
+    "async": "*",
+    "colors": "*",
+    "commander": "*",
+    "color": "*",
     "lodash": "2.4.1"
   },
-  "peerDependencies": {
-    "grunt": "~0.4.0"
+  "keywords": [],
+  "_id": "arialinter@0.3.1",
+  "dist": {
+    "shasum": "40fcffe064e9f3c0a250b64444ab02fe40533508",
+    "tarball": "http://registry.npmjs.org/arialinter/-/arialinter-0.3.1.tgz"
   },
-  "keywords": [
-    "gruntplugin"
-  ]
+  "_from": "arialinter@^0.3.1",
+  "_npmVersion": "1.3.8",
+  "_npmUser": {
+    "name": "eabait",
+    "email": "estebanabait@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "sabarasaba",
+      "email": "rivasign@gmail.com"
+    },
+    {
+      "name": "eabait",
+      "email": "estebanabait@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "40fcffe064e9f3c0a250b64444ab02fe40533508",
+  "_resolved": "https://registry.npmjs.org/arialinter/-/arialinter-0.3.1.tgz",
+  "readme": "ERROR: No README data found!"
 }

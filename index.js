@@ -1,1 +1,1 @@
-module.exports = require('./lib/cli/node');
+module.exports = require('./lib/arialinter.js');
